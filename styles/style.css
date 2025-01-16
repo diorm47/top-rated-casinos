@@ -201,10 +201,27 @@ main {
   align-items: center;
   gap: 4px;
 }
-.payment_options_list img {
+.payment_options_list div {
   width: 50px;
+  height: 30px;
+  background-size: cover;
+  border-radius: 4px;
 }
-
+.paysafe {
+  background: url(../assets/icons/payments/paysafe.svg);
+}
+.paypal {
+  background: url(../assets/icons/payments/paypal.svg);
+}
+.visa {
+  background: url(../assets/icons/payments/visa.svg);
+}
+.mastercard {
+  background: url(../assets/icons/payments/mastercard.svg);
+}
+.apple-pay {
+  background: url(../assets/icons/payments/apple-pay.svg);
+}
 .payment_options p {
   font-size: 16px;
   font-weight: 700;
@@ -486,7 +503,7 @@ footer {
 
 @media only screen and (max-width: 1000px) {
   .casinos_list_mob {
-    display: block; 
+    display: block;
   }
   .casino_card {
     height: auto;
